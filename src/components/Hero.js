@@ -25,6 +25,7 @@ const Hero = () => {
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               <a href="resume.pdf">Resume</a>
             </button>
+            <button></button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end'>
             {<img width={400} className='w-50' src={WomanImg} alt='' />}

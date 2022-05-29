@@ -16,8 +16,7 @@ const Project = ({ item }) => {
           <div class='badge badge-info'>NEW</div>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
-          obcaecati ipsam.
+          This is the project Description area 
         </p>
         <div class='flex justify-around mt-2'>
           <div class='badge badge-outline'>React</div>

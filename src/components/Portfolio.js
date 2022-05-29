@@ -12,8 +12,9 @@ const Portfolio = () => {
             My latest work
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Here is my some projects where i have used different types of tools
+            and technologies to implement these projects. To see the description
+            please click on the Project.
           </p>
         </div>
         <Projects />
