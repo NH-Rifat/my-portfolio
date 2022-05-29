@@ -6,14 +6,10 @@ import { brands } from '../data';
 const Brands = () => {
   return (
     <section className='min-h-[146px] bg-tertiary flex items-center'>
-      <div
-        className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'
-      >
+      <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'>
         {brands.map((brand, idx) => {
           return (
-            <div
-              key={idx}
-            >
+            <div key={idx}>
               <img src={brand.img} alt='' />
             </div>
           );

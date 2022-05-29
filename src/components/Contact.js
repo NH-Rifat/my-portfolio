@@ -3,7 +3,6 @@ import React from 'react';
 // import contact data
 import { contact } from '../data';
 
-
 const Contact = () => {
   return (
     <section className='section bg-primary' id='contact'>
@@ -17,12 +16,8 @@ const Contact = () => {
             labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
-        <div
-          className='flex flex-col lg:gap-x-8 lg:flex-row'
-        >
-          <div
-            className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'
-          >
+        <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
+          <div className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'>
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
               return (
@@ -39,9 +34,7 @@ const Contact = () => {
               );
             })}
           </div>
-          <form
-            className='space-y-8 w-full max-w-[780px]'
-          >
+          <form className='space-y-8 w-full max-w-[780px]'>
             <div className='flex gap-8'>
               <input className='input' type='text' placeholder='Your name' />
               <input className='input' type='email' placeholder='Your email' />

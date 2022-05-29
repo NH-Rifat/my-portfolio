@@ -18,7 +18,7 @@ const App = () => {
     <div className='bg-white relative'>
       <Header />
       <Hero />
-      <Brands />
+      {/*<Brands />*/}
       <About />
       <Skills />
       <Portfolio />

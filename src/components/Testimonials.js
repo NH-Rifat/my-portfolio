@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import TestiSlider from './TestiSlider';
 
 const Testimonials = () => {
-
   return (
     <section id='testimonials' className='section bg-secondary'>
       <div className='container mx-auto'>

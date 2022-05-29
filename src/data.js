@@ -21,6 +21,11 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
+// import Project2 from './assets/img/projects/p4.webp';
+// import Project3 from './assets/img/projects/g-1.jpg';
+// import Project4 from './assets/img/projects/p3.webp';
+// import Project5 from './assets/img/projects/p4.webp';
+// import Project6 from './assets/img/projects/p5.webp';
 import Project2 from './assets/img/projects/p2.webp';
 import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
@@ -36,6 +41,10 @@ import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
+// import SkillImg9 from './assets/img/skills/nodejs.png';
+// import SkillImg10 from './assets/img/skills/git.png';
+// import SkillImg11 from './assets/img/skills/figma.png';
+// import SkillImg12 from './assets/img/skills/figma.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -119,13 +128,13 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'car dealer inventory',
     category: 'UI/UX design',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Travel Guide',
     category: 'web development',
   },
   {
