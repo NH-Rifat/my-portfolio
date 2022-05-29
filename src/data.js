@@ -128,38 +128,83 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'car dealer inventory',
-    category: 'UI/UX design',
+    name: 'car dealer warehouse',
+    category: 'React/node js',
+    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
+    live_link: 'https://car-dealer-407f1.web.app/',
   },
   {
     id: '2',
     image: Project2,
-    name: 'Travel Guide',
-    category: 'web development',
+    name: 'Doctors portal',
+    category: 'React/node js',
+    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
+    live_link: 'https://car-dealer-407f1.web.app/',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'car parts inventory',
+    category: 'React/node js',
+    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
+    live_link: 'https://car-dealer-407f1.web.app/',
+  },
+  {
+    id: '10',
+    image: Project3,
+    name: 'Todo App',
+    category: 'React/node js',
+    repo_link: 'https://github.com/NH-Rifat/React-todo-App',
+    live_link: 'https://todo-app-20b59.web.app/',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Travel Guide',
+    category: 'React',
+    repo_link: 'https://github.com/NH-Rifat/Travel-Guide-Application',
+    live_link: 'https://travel-guide-4388b.web.app/',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Book shopping',
+    category: 'React',
+    repo_link:
+      'https://github.com/NH-Rifat/javascript-book-shopping-application',
+    live_link: 'https://javascrip-book-shopping.netlify.app/',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'Ema-jhon simple',
+    category: 'React',
+    repo_link: 'https://github.com/NH-Rifat/Travel-Guide-Application',
+    live_link: 'https://travel-guide-4388b.web.app/',
+  },
+  {
+    id: '7',
+    image: Project1,
+    name: 'Smart phone Garage',
+    category: 'JS/API',
+    repo_link: 'https://github.com/NH-Rifat/smart__phone__garage-using-api',
+    live_link: 'https://phone-garage-with-api.netlify.app/',
+  },
+  {
+    id: '8',
+    image: Project2,
+    name: 'Panda Ecommerce',
+    category: 'UI/UX design',
+    repo_link: 'https://github.com/NH-Rifat/panad-ecommerce',
+    live_link: 'https://travel-guide-4388b.web.app/',
+  },
+  {
+    id: '9',
+    image: Project3,
+    name: 'Hot Gadget',
+    category: 'UI/UX design',
+    repo_link: 'https://github.com/NH-Rifat/Hot-gadget-using-bootstrap',
+    live_link: 'https://panda-ecommerce-design.netlify.app/',
   },
 ];
 
@@ -169,13 +214,17 @@ export const projectsNav = [
     name: 'all',
   },
   {
+    name: 'React/node js',
+  },
+  {
+    name: 'React',
+  },
+
+  {
+    name: 'JS/API',
+  },
+  {
     name: 'UI/UX Design',
-  },
-  {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
   },
 ];
 

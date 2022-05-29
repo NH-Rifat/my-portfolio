@@ -13,7 +13,7 @@ const Portfolio = () => {
           </h2>
           <p className='subtitle'>
             Here is my some projects where i have used different types of tools
-            and technologies to implement these projects. To see the description
+            and technologies to implement these projects. To Explore
             please click on the Project.
           </p>
         </div>
