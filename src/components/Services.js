@@ -9,11 +9,12 @@ const Services = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
-            What I do for clients
+            My interest on Tech
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            I am hard-working in the individual phase with proficiency in using
+            different technology. I am hungry to learn and determined to find
+            core engineering beauty at best.
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>

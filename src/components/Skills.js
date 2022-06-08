@@ -2,7 +2,7 @@ import React from 'react';
 
 // import skill data
 import { skills } from '../data';
-console.log(skills)
+// console.log(skills)
 
 const Skills = () => {
   return (

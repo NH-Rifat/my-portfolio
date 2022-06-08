@@ -20,17 +20,20 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
+import Project1 from './assets/img/projects/parts-01.jpg';
 // import Project2 from './assets/img/projects/p4.webp';
 // import Project3 from './assets/img/projects/g-1.jpg';
 // import Project4 from './assets/img/projects/p3.webp';
 // import Project5 from './assets/img/projects/p4.webp';
 // import Project6 from './assets/img/projects/p5.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project2 from './assets/img/projects/car_manufacture.jpg';
+import Project3 from './assets/img/projects/todo_.jpg';
+import Project4 from './assets/img/projects/travel-05.jpg';
+import Project5 from './assets/img/projects/book-01.jpg';
+import Project6 from './assets/img/projects/shopping-01.jpg';
+import Project7 from './assets/img/projects/phon-03.jpg';
+import Project8 from './assets/img/projects/design-04.jpg';
+import Project9 from './assets/img/projects/design-01.jpg';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -126,85 +129,151 @@ export const brands = [
 // projects
 export const projectsData = [
   {
-    id: '1',
+    id: 1,
     image: Project1,
-    name: 'car dealer warehouse',
+    name: 'Parts manufacturing',
+    des: 'This is the project Description area',
     category: 'React/node js',
-    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
-    live_link: 'https://car-dealer-407f1.web.app/',
+    repo_link:
+      'https://github.com/NH-Rifat/parts-manufacture-Application-client-side',
+    live_link: 'https://car-manufacturing-e90c4.web.app/',
+    technology: [
+      'React',
+      'node',
+      'firebase',
+      'mongodb',
+      'Authentication',
+      'React-Query',
+      'JWT',
+      'Tailwind',
+      'daisy UI',
+      'social Login',
+    ],
+    tag: 'NEW',
   },
+
+  // {
+  //   id: 3,
+  //   image: Project2,
+  //   name: 'Doctors portal',
+  //   des:'This is the project Description area',
+  //   category: 'React/node js',
+  //   repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
+  //   live_link: 'https://car-dealer-407f1.web.app/',
+  //   technology:['React','node','firebase','mongodb','Authentication','React-Query','Tailwind','daisy UI','social Login'],
+  //   tag:'NEW'
+  // },
+
   {
-    id: '2',
-    image: Project2,
-    name: 'Doctors portal',
-    category: 'React/node js',
-    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
-    live_link: 'https://car-dealer-407f1.web.app/',
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'car parts inventory',
-    category: 'React/node js',
-    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
-    live_link: 'https://car-dealer-407f1.web.app/',
-  },
-  {
-    id: '10',
+    id: 2,
     image: Project3,
     name: 'Todo App',
+    des: 'This is the project Description area',
     category: 'React/node js',
     repo_link: 'https://github.com/NH-Rifat/React-todo-App',
     live_link: 'https://todo-app-20b59.web.app/',
+    technology: [
+      'React',
+      'node',
+      'firebase',
+      'mongodb',
+      'Authentication',
+      'React-Query',
+      'JWT',
+      'Tailwind',
+      'daisy UI',
+      'social Login',
+    ],
+    tag: 'NEW',
   },
   {
-    id: '4',
+    id: 3,
+    image: Project2,
+    name: 'car dealer warehouse',
+    des: 'This is the project Description area',
+    category: 'React/node js',
+    repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
+    live_link: 'https://car-dealer-407f1.web.app/',
+    technology: [
+      'React',
+      'node',
+      'firebase',
+      'mongodb',
+      'Authentication',
+      'React-Query',
+      'JWT',
+      'Tailwind',
+      'daisy UI',
+      'social Login',
+    ],
+    tag: ' month ago',
+  },
+  {
+    id: 4,
     image: Project4,
     name: 'Travel Guide',
+    des: 'This is the project Description area ',
     category: 'React',
     repo_link: 'https://github.com/NH-Rifat/Travel-Guide-Application',
     live_link: 'https://travel-guide-4388b.web.app/',
+    technology: ['React', 'firebase', 'CSS'],
+    tag: '1 month ago',
   },
   {
-    id: '5',
+    id: 5,
     image: Project5,
     name: 'Book shopping',
+    des: 'This is the project Description area',
     category: 'React',
     repo_link:
       'https://github.com/NH-Rifat/javascript-book-shopping-application',
     live_link: 'https://javascrip-book-shopping.netlify.app/',
+    technology: ['React', 'firebase', 'Bootstrap'],
+    tag: '2 month ago',
   },
   {
-    id: '6',
+    id: 6,
     image: Project6,
     name: 'Ema-jhon simple',
+    des: 'This is the project Description area',
     category: 'React',
     repo_link: 'https://github.com/NH-Rifat/Travel-Guide-Application',
     live_link: 'https://travel-guide-4388b.web.app/',
+    technology: ['React', 'firebase', 'localstorage', 'API'],
+    tag: '3 month ago',
   },
   {
-    id: '7',
-    image: Project1,
+    id: 7,
+    image: Project7,
     name: 'Smart phone Garage',
+    des: 'This is the project Description area',
     category: 'JS/API',
     repo_link: 'https://github.com/NH-Rifat/smart__phone__garage-using-api',
     live_link: 'https://phone-garage-with-api.netlify.app/',
+    technology: ['HTML', 'CSS', 'Javascript', 'API'],
+    tag: '4 month ago',
   },
   {
-    id: '8',
-    image: Project2,
+    id: 8,
+    image: Project8,
     name: 'Panda Ecommerce',
+    des: 'This is the project Description area',
     category: 'UI/UX design',
     repo_link: 'https://github.com/NH-Rifat/panad-ecommerce',
-    live_link: 'https://travel-guide-4388b.web.app/',
+    live_link: 'https://panda-ecommerce-design.netlify.app/',
+    technology: ['HTML', 'CSS', 'Bootstrap'],
+    tag: '2 Years ago',
   },
   {
-    id: '9',
-    image: Project3,
+    id: 9,
+    image: Project9,
     name: 'Hot Gadget',
+    des: 'This is the project Description area',
     category: 'UI/UX design',
     repo_link: 'https://github.com/NH-Rifat/Hot-gadget-using-bootstrap',
-    live_link: 'https://panda-ecommerce-design.netlify.app/',
+    live_link: 'https://hot-gadgeted.netlify.app',
+    technology: ['HTML', 'CSS', 'Bootstrap'],
+    tag: '2 Years ago',
   },
 ];
 
@@ -219,7 +288,6 @@ export const projectsNav = [
   {
     name: 'React',
   },
-
   {
     name: 'JS/API',
   },
@@ -260,25 +328,25 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Front-end Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Back-end Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Problem Solving',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Core Engineering',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },

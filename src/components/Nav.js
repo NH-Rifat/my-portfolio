@@ -18,7 +18,7 @@ const Nav = () => {
             >
               <Link
                 to={item.href}
-                activeClass='active'
+                activeclass='active'
                 spy={true}
                 smooth={true}
                 duration={500}

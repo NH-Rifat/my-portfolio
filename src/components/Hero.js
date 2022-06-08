@@ -2,6 +2,7 @@ import React from 'react';
 
 // import woman image
 import WomanImg from '../assets/img/hero/hero.svg';
+import resume from '../assets/img/hero/resume.pdf';
 
 const Hero = () => {
   return (
@@ -23,9 +24,10 @@ const Hero = () => {
               dolor elit.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              <a href="resume.pdf">Resume</a>
+              <a href={resume} download className=''>
+                Download Resume
+              </a>
             </button>
-            <button></button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end'>
             {<img width={400} className='w-50' src={WomanImg} alt='' />}

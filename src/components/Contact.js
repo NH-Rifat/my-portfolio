@@ -1,9 +1,25 @@
 import React from 'react';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 // import contact data
 import { contact } from '../data';
 
 const Contact = () => {
+  // email sent to the owner email......
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_28inj8p', 'template_6xyvxpo', form.current, 'e9TCiEGAqfVM21gKW')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
@@ -34,15 +50,16 @@ const Contact = () => {
               );
             })}
           </div>
-          <form className='space-y-8 w-full max-w-[780px]'>
+          <form className='space-y-8 w-full max-w-[780px]' ref={form} onSubmit={sendEmail}>
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' placeholder='Your name' name='name'/>
+              <input className='input' type='email' placeholder='Your email' name='email'/>
             </div>
-            <input className='input' type='text' placeholder='Subject' />
+            <input className='input' type='text' placeholder='Subject' name='subject'/>
             <textarea
               className='textarea'
               placeholder='Your message'
+              name='message'
             ></textarea>
             <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
               Send message
