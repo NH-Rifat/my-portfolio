@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 
 // import contact data
 import { contact } from '../data';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   // email sent to the owner email......
@@ -14,6 +15,7 @@ const Contact = () => {
 
     emailjs.sendForm('service_28inj8p', 'template_6xyvxpo', form.current, 'e9TCiEGAqfVM21gKW')
       .then((result) => {
+        toast.success('Email sent successfully to Hasan')
           console.log(result.text);
       }, (error) => {
           console.log(error.text);

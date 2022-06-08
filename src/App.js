@@ -12,6 +12,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
+import { ToastContainer} from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -28,6 +30,7 @@ const App = () => {
       <Contact />
       <Footer />
       <BackTopBtn />
+      <ToastContainer />
     </div>
   );
 };
