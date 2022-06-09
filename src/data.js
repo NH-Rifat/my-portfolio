@@ -28,7 +28,7 @@ import Project1 from './assets/img/projects/parts-01.jpg';
 // import Project6 from './assets/img/projects/p5.webp';
 import Project2 from './assets/img/projects/car_manufacture.jpg';
 import Project3 from './assets/img/projects/todo_.jpg';
-import Project4 from './assets/img/projects/travel-05.jpg';
+import Project4 from './assets/img/projects/travel.jpg';
 import Project5 from './assets/img/projects/book-01.jpg';
 import Project6 from './assets/img/projects/shopping-01.jpg';
 import Project7 from './assets/img/projects/phon-03.jpg';
@@ -72,10 +72,10 @@ export const navigation = [
     name: 'services',
     href: 'services',
   },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
+  // {
+  //   name: 'testimonials',
+  //   href: 'testimonials',
+  // },
   {
     name: 'contact',
     href: 'contact',
@@ -383,12 +383,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at hasanrifat@.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    subtitle: 'Dhaka, Bangladesh',
+    description: 'Front-end Developer',
   },
 ];

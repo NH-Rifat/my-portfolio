@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styles from './Projects.module.css'
 
 // import data
 import { projectsData } from '../data';
@@ -52,7 +53,7 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <section className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'>
+      <section className='grid gap-y-12 4xsm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 lg:gap-x-8 lg:gap-y-12'>
         {projects.map((item) => {
           return <Project item={item} key={item.id} />;
         })}
