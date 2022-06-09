@@ -12,25 +12,19 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
-import { ToastContainer} from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import { Route, Routes } from 'react-router-dom';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import Home from './components/Home/Home';
 
 const App = () => {
   return (
-    <div className='bg-white relative'>
+    <div className=''>
       <Header />
-      <Hero />
-      {/*<Brands />*/}
-      <About />
-      <Skills />
-      <Portfolio />
-      <Services />
-      {/*<Testimonials />*/}
-      
-      <Contact />
-      <Footer />
-      <BackTopBtn />
-      <ToastContainer />
+      <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/projectDetails/:id' element={<ProjectDetails></ProjectDetails>}></Route>
+      </Routes>
     </div>
   );
 };

@@ -1,11 +1,17 @@
 import React from 'react';
 import styles from './Project.module.css';
+import {useNavigate } from 'react-router-dom';
+
 
 const Project = ({ item }) => {
   // console.log(item);
   const { id, name, image, technology, des, tag } = item;
+  let navigate = useNavigate();
   // console.log(technology);
-  // console.log(image)
+  // console.log(id)
+  const handleDetails=(id)=>{
+    navigate(`/projectDetails/${id}`)
+  }
   return (
     <div className=''>
       <div className={styles.card}>
@@ -23,12 +29,12 @@ const Project = ({ item }) => {
             eveniet quasi eum dicta autem est dolorem deleniti explicabo
           </p>
           <div className='mt-4 flex justify-between'>
-            <button className='btn left'>
+            <div className={styles.btn_class}>
               <a href={item.live_link} target='_blank'>
                 Live
               </a>
-            </button>
-            <button className='btn left'>Details</button>
+            </div>
+            <button className='btn left' onClick={()=>handleDetails(id)}>Details</button>
           </div>
         </div>
       </div>
