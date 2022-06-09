@@ -5,7 +5,6 @@ import Skills from '../Skills';
 import Portfolio from '../Portfolio';
 import Services from '../Services';
 import Contact from '../Contact';
-import Footer from '../Footer';
 import BackTopBtn from '../BackTopBtn';
 
 const Home = () => {
@@ -17,7 +16,6 @@ const Home = () => {
       <Portfolio></Portfolio>
       <Services></Services>
       <Contact></Contact>
-      <Footer></Footer>
       <BackTopBtn></BackTopBtn>
     </div>
   );
