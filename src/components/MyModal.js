@@ -72,11 +72,11 @@ function MyModal({ setIsOpen, modalIsOpen, details }) {
                 <div className={styles.links}>
                   <button className={styles.live_demo}>
                     <AiOutlineLink className='mr-1 text-xl' ></AiOutlineLink>
-                    <a href={live_link}>Live Demo</a>
+                    <a href={live_link} target='_blank'>Live Demo</a>
                   </button>
                   <button className={styles.source}>
                     <AiFillGithub className='mr-1 text-xl' />
-                    <a href={repo_link}>github</a>
+                    <a href={repo_link} target='_blank'>github</a>
                   </button>
                 </div>
               </div>
