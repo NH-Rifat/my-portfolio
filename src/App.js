@@ -1,5 +1,7 @@
 import React from 'react';
 
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import components
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,11 +16,11 @@ const App = () => {
     <div className=''>
       <Header />
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/home' element={<Home/>}></Route>
         <Route
           path='/projectDetails/:id'
-          element={<ProjectDetails></ProjectDetails>}
+          element={<ProjectDetails/>}
         ></Route>
       </Routes>
       <Footer></Footer>

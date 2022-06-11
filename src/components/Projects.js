@@ -30,6 +30,8 @@ const Projects = () => {
     setActive(index);
   };
 
+  
+
   return (
     <div>
       {/* projects nav */}

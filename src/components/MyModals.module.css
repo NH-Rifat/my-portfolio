@@ -1,0 +1,106 @@
+.info_section{
+  background-color: white;
+  /* padding: 100px; */
+  margin-top: 100px;
+  width: 60%;
+  height: 60vh;
+  position: relative;
+  left: 20%;
+  border-radius: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.details_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_sec img{
+  border-radius: 12px 0px 0px 12px;
+  height: 60vh;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.close_btn{
+
+}
+
+.close_btn button{
+  position: relative;
+  color: black;
+  left: 95%;
+  top: 20px;
+  /* right: 0; */
+}
+.project_info{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.project_info .name{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.description{
+  margin-top: 1rem;
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.live_demo{
+  display: flex;
+  align-items: center;
+  background-color: rgb(38, 40, 43);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.source{
+  display: flex;
+  align-items: center;
+  background-color: rgb(38, 40, 43);
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.source a{
+  /* margin-left: 0%; */
+}
+.tech_title{
+  margin-top: 1.5rem;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 1rem;
+}
+span.all_tech {
+  margin: 0px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.tech{
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
