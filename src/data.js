@@ -136,6 +136,7 @@ export const projectsData = [
     category: 'React/node js',
     repo_link:
       'https://github.com/NH-Rifat/parts-manufacture-Application-client-side',
+    server_link:'https://github.com/NH-Rifat/parts-manufacturing-server',
     live_link: 'https://car-manufacturing-e90c4.web.app/',
     technology: [
       'React',
@@ -158,6 +159,7 @@ export const projectsData = [
     des: 'This is a Todo App web application where user can manage his/her car product which is more interesting as well as give',
     category: 'React/node js',
     repo_link: 'https://github.com/NH-Rifat/React-todo-App',
+    server_link:'https://github.com/NH-Rifat/todo-app-node-mongo',
     live_link: 'https://todo-app-20b59.web.app/',
     technology: [
       'React',
@@ -180,6 +182,7 @@ export const projectsData = [
     des: 'This is a car dealing inventory web application where user can manage his/her car product which is more interesting as well as give',
     category: 'React/node js',
     repo_link: 'https://github.com/NH-Rifat/car_warehouse_management',
+    server_link:'https://github.com/NH-Rifat/car-delearshipp_warehouse-server-side',
     live_link: 'https://car-dealer-407f1.web.app/',
     technology: [
       'React',

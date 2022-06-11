@@ -25,9 +25,18 @@ const customStyles = {
 // Modal.setAppElement('#yourAppElement');
 
 function MyModal({ setIsOpen, modalIsOpen, details }) {
-  console.log(details);
-  const { id, name, image, technology, des, tag, live_link, repo_link } =
-    details;
+  // console.log(details);
+  const {
+    id,
+    name,
+    image,
+    technology,
+    des,
+    tag,
+    live_link,
+    repo_link,
+    server_link,
+  } = details;
 
   // let subtitle;
 
@@ -71,13 +80,27 @@ function MyModal({ setIsOpen, modalIsOpen, details }) {
                 </div>
                 <div className={styles.links}>
                   <button className={styles.live_demo}>
-                    <AiOutlineLink className='mr-1 text-xl' ></AiOutlineLink>
-                    <a href={live_link} target='_blank'>Live Demo</a>
+                    <AiOutlineLink className='mr-1 text-xl'></AiOutlineLink>
+                    <a href={live_link} target='_blank'>
+                      Live Demo
+                    </a>
                   </button>
                   <button className={styles.source}>
                     <AiFillGithub className='mr-1 text-xl' />
-                    <a href={repo_link} target='_blank'>github</a>
+                    <a href={repo_link} target='_blank'>
+                      github client
+                    </a>
                   </button>
+                  {server_link ? (
+                    <button className={styles.source}>
+                      <AiFillGithub className='mr-1 text-xl' />
+                      <a href={server_link} target='_blank'>
+                        github server
+                      </a>
+                    </button>
+                  ) : (
+                    ''
+                  )}
                 </div>
               </div>
             </div>
